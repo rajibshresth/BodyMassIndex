@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/text_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Enter Your Height"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/etheight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="In Cm"
+        android:inputType="numberDecimal"
+        android:ems="7"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/text_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Enter Your Weight"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/etweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="In Kg's"
+        android:layout_gravity="center"
+        android:ems="7"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/btnBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Compute BMI"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your BMI"
+        android:ems="6"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/etBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" BMI"
+        android:textSize="20sp"
+        android:ems="6"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
